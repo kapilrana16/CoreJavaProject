@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Set;
 
 public class DupValFromList_july {
-
+	
+	//New way of defining Array list.
 	public static void main(String[] args) 
 	{
 		List<Object> list = Arrays.asList("anil","banil","anil","canil",1,1,2);
@@ -16,7 +17,7 @@ public class DupValFromList_july {
 		{
 			if(set.add(a)==false)
 			{
-				System.out.println("duplicte element:" + a);
+				System.out.println("Duplicte element:" + a);
 			}
 		}
 				
