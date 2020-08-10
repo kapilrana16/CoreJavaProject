@@ -3,6 +3,7 @@ package CollectionRevisionJuly2020;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class CollectionAndListMethods {
@@ -15,7 +16,7 @@ public class CollectionAndListMethods {
 		c.add(3);
 		c.add(2);
 		c.remove(1);  // Work on value.
-		// Collections.sort(c);
+		//Collections.sort(c);
 		
 		for(Integer a : c)
 		{

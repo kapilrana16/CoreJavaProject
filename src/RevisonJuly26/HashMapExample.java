@@ -16,7 +16,7 @@ public class HashMapExample {
 		Set<String> kset =  map.keySet();
 		for(String a : kset)
 		{
-			System.out.println(map.get(a));
+			System.out.println(a + " : " +map.get(a));
 		}
 		
 		map.forEach((k,v)->System.out.println("Key "+ k +", value " + v));
